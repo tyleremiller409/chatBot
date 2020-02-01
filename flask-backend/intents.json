@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "What's up", "Howdy", "Hola", "Bonjour", "Hey"],
+         "responses": ["Hello!", "Nice to meet you!", "Welcome to my page!", "Hey!", "What's up?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "bye", "talk to you later"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "home",
+         "patterns": ["Where do you live?", "Where are you from?", "Where is home for you?"],
+         "responses": ["I live in Pflugerville now, but I'm originally from Orange, Texas."],
+         "context_set": ""
+        },
+        {"tag": "hometown",
+         "patterns": ["Where is Orange?", "I've never heard of that"],
+         "responses": ["It's a small town in Southeast Texas, on the border of Louisiana."],
+         "context_set": ""
+        },
+        {"tag": "family",
+         "patterns": ["Do you have siblings?", "siblings", "parents"],
+         "responses": ["I'm an only child.", "It's just me and my parents (and my pets)!"],
+         "context_set": ""
+        },
+        {"tag": "hobbies",
+         "patterns": ["What do you do for fun", "for fun", "your hobbies", "free time", "interests"],
+         "responses": ["I enjoy learning new things in my free time.", "I love watching history videos on youtube.",
+           "I play piano, and I really like jazz and classical music.", "I like trying to learn new languages, although I haven't fully succeeded (yet)."],
+         "context_set": ""
+        },
+        {"tag": "pets",
+         "patterns": ["Do you have any pets?", "have a dog?", "have a cat?"],
+         "responses": ["I have a dog and two cats!", "My cats' names are Rocky and Duke.", "I have a weenie dog named Snoop Dogg!"],
+         "context_set": ""
+        },
+        {"tag": "major",
+         "patterns": ["What is your major?", "What are you studying?", "What do you study?"],
+         "responses": ["I'm a computer science major! (I used to be biology but I realized I liked computer science a lot more haha)"],
+         "context_set": ""
+        },
+        {"tag": "career plans",
+         "patterns": ["What do you want to do after school?", "What do you want to work as?", "industry", "graduate school", "grad school"],
+         "responses": ["I'm not yet sure what I want to do after graduation. I'm thinking grad school??", "Working on natural language processing would be fun",
+         "I either want to work as an engineer in natural language processing, or go to graduate school for NLP.", "I'm not sure yet, but I'm trying to figure it out."],
+         "context_set": ""
+        },
+        {"tag": "why CS?",
+         "patterns": ["Why do you like computer science?", "why CS?", "Why did you pick computer science?", "Why did you change your major?"],
+         "responses": ["I've always enjoyed creating things, be it music or random projects, so I thought CS was perfect.",
+         "I love computer science because it enables humans to do all of the cool stuff we do now (bioinformatics, self-driving cars, etc.)",
+         "Computer science is especially cool because it can be connected with other interests of mine like language, music, and biology!"],
+         "context_set": ""
+        },
+        {"tag": "fun facts",
+         "patterns": ["fun facts", "interesting facts", "tell me something"],
+         "responses": ["My favorite food is gumbo!", "I love jazz and classical music.", "My favorite pianist is Oscar Peterson.",
+         "I play piano but I'm bad at reading music so I mostly improvise!", "My mom is Cajun so I'm trying to learn French to help preserve the culture!"],
+         "context_set": ""
+        }
+
+]
+}
